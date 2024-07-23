@@ -7,7 +7,7 @@ library(ggplot2)
 library(gridExtra)
 
 # Read the data
-file_path <- "Data/Updated_Merged_Data_no_index.csv"
+file_path <- "Data/sample_data.csv"
 merged_data <- read.csv(file_path)
 
 # Step 1a: Calculate the 98.5th percentile thresholds
